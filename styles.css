@@ -303,6 +303,17 @@ a { color: inherit; }
   transition: transform .45s ease;
 }
 
+.product-image-contain {
+  background: #e7e0d5;
+}
+
+.product-image-contain img {
+  object-fit: contain;
+  object-position: center center;
+  padding: 12px;
+  background: #e7e0d5;
+}
+
 .product-card:hover .product-image img {
   transform: scale(1.025);
 }
