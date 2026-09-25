@@ -352,6 +352,14 @@ a { color: inherit; }
   letter-spacing: .05em;
 }
 
+.manifesto-copy {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #55574f;
+  font-size: 14px;
+  line-height: 2;
+}
+
 .manifesto > p:last-child {
   margin-top: 36px;
   font-family: Georgia, serif;
