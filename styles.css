@@ -253,6 +253,14 @@ a { color: inherit; }
   align-items: start;
 }
 
+.story-layout-single {
+  grid-template-columns: minmax(0, 900px);
+}
+
+.story-layout-single .story-copy {
+  max-width: 900px;
+}
+
 .story-copy {
   font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: clamp(18px, 2vw, 24px);
