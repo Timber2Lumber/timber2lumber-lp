@@ -172,6 +172,22 @@ a { color: inherit; }
   pointer-events: none;
 }
 
+.journey-visual {
+  padding: 0;
+  background: #161815;
+}
+
+.journey-visual-inner {
+  max-width: 1536px;
+  margin: 0 auto;
+}
+
+.journey-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .section {
   padding: 104px max(24px, calc((100vw - var(--max)) / 2));
 }
