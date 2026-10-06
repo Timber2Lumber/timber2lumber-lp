@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timber2lumber.jp/sitemap.xml
